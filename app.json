@@ -1,0 +1,73 @@
+{
+  "name": "Telegram UserBotX",
+  "description": "[TG-UBotX] A modular Telegram userbot running on Python 3.6+ with an sqlalchemy database.",
+  "logo": "https://i.imgur.com/ATSG4w3.png",
+  "keywords": [
+    "telegram",
+    "userbot",
+    "plugin",
+    "modular",
+    "productivity"
+  ],
+  "repository": "https://github.com/PaulSonOfLars/tgbot",
+  "stack": "container",
+  "env": {
+    "TOKEN": {
+      "description": "Get this value from BotFather.",
+      "required": true
+    },
+    "API_HASH": {
+      "description": "Get this value from my.telegram.org.",
+      "required": true
+    },
+    "OWNER_ID": {
+      "description": "Get this value by running by doing /info.",
+      "required": true
+    },
+    "OWNER_USERNAME": {
+      "description": "Your Username Here.",
+      "required": true
+    },
+    "SUDO_USERS": {
+      "description": "To add sudo for your bot.",
+      "required": false
+    },
+    "SUPPORT_USERS": {
+      "description": "To add Support Users for your bot.",
+      "required": false
+    },
+    "WHITELIST_USERS": {
+      "description": "To give user ban protection.",
+      "required": false
+    },
+    "DONATION_LINK": {
+      "description": "Donation link if you want it.",
+      "required": false
+    },
+    "STRICT_GBAN": {
+      "description": "Enforce gbans across new groups as well as old groups. When a gbanned user talks, he will be banned.",
+      "value": "1",
+      "required": false
+    },
+    "WORKERS": {
+      "description": "Define how many Cores to use.",
+      "value": "8",
+      "required": true
+    },
+    "BAN_STICKER": {
+      "description": "Add a sticker id, to use while banning a user.",
+      "required": false
+    },
+    "ALLOW_EXCL": {
+      "description": "Whether to allow using exclamation marks ! for commands as well as /",
+      "required": false
+    },
+  "addons": [
+    {
+      "plan": "heroku-postgresql",
+      "options": {
+        "version": "12"
+      }
+    }
+  ]
+}
