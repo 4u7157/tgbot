@@ -44,7 +44,7 @@
     },
     "STRICT_GBAN": {
       "description": "Enforce gbans across new groups as well as old groups. When a gbanned user talks, he will be banned.",
-      "value": "1",
+      "value": "true",
       "required": false
     },
     "WORKERS": {
