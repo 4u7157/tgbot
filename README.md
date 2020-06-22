@@ -20,6 +20,9 @@ Feel free to join to report bugs, and stay in the loop on the status of the bot 
 
 Note to maintainers that all schema changes will be found in the commit messages, and its their responsibility to read any new commits.
 
+## Heroku Deploy
+
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/4u7157/tgbot)
 
 ## IMPORTANT NOTICE:
 
