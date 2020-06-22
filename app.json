@@ -9,7 +9,9 @@
     "modular",
     "productivity"
   ],
-  "repository": "https://github.com/PaulSonOfLars/tgbot",
+  "repository": "https://github.com/4u7157/tgbot",
+  "website": "https://github.com/4u7157/tgbot",
+  "success_url": "/start",
   "stack": "container",
   "env": {
     "TOKEN": {
