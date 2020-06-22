@@ -61,7 +61,8 @@
     "ALLOW_EXCL": {
       "description": "Whether to allow using exclamation marks ! for commands as well as /",
       "required": false
-    },
+    }
+  },
   "addons": [
     {
       "plan": "heroku-postgresql",
