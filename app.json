@@ -18,10 +18,6 @@
       "description": "Get this value from BotFather.",
       "required": true
     },
-    "API_HASH": {
-      "description": "Get this value from my.telegram.org.",
-      "required": true
-    },
     "OWNER_ID": {
       "description": "Get this value by running by doing /info.",
       "required": true
