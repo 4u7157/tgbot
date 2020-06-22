@@ -1,6 +1,6 @@
 {
-  "name": "Telegram UserBotX",
-  "description": "[TG-UBotX] A modular Telegram userbot running on Python 3.6+ with an sqlalchemy database.",
+  "name": "Telegram Group ManagerBot",
+  "description": "Group Manager bot.",
   "logo": "https://i.imgur.com/ATSG4w3.png",
   "keywords": [
     "telegram",
@@ -9,15 +9,13 @@
     "modular",
     "productivity"
   ],
-  "repository": "https://github.com/PaulSonOfLars/tgbot",
+  "repository": "https://github.com/4u7157/tgbot",
+  "website": "https://github.com/4u7157/tgbot",
+  "success_url": "/start",
   "stack": "container",
   "env": {
     "TOKEN": {
       "description": "Get this value from BotFather.",
-      "required": true
-    },
-    "API_HASH": {
-      "description": "Get this value from my.telegram.org.",
       "required": true
     },
     "OWNER_ID": {
@@ -46,7 +44,7 @@
     },
     "STRICT_GBAN": {
       "description": "Enforce gbans across new groups as well as old groups. When a gbanned user talks, he will be banned.",
-      "value": "1",
+      "value": "true",
       "required": false
     },
     "WORKERS": {
